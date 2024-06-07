@@ -3,6 +3,12 @@
 }
 
 .btn{
-  height: 70px;
-  width: 70px;
+  height: 4rem;
+  width: 4rem;
+	font-size: 2rem;
+}
+
+.boxScore{
+	height:5rem;
+	width: 12rem;
 }
