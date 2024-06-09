@@ -19,7 +19,6 @@ function initializeVariables(){
 	resultA = 0;
 	resultB = 0;
 	moves = 0;
-	numbersArray = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8];
 	document.getElementById("moves").innerHTML = "Moves: "+moves;
 	document.getElementById("score").innerHTML = "Score: "+score;
 	document.getElementById("time").innerHTML = "Time: "+ timer;
@@ -91,8 +90,8 @@ function uncover(id){
 
 
 function restartGame(){
-	randomizeArray();
 	initializeVariables();
+	randomizeArray();
 	for(let i=0; i<16; i++){
 		document.getElementById(i).innerHTML = ' ';
 		document.getElementById(i).disabled = false;
